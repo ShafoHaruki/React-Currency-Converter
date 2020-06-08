@@ -17,8 +17,8 @@ function App() {
     fromAmount = amount;
     toAmount = amount * exchangeRate;
   } else {
-    fromAmount = amount;
-    toAmount = amount / exchangeRate;
+    toAmount = amount;
+    fromAmount = amount / exchangeRate;
   }
 
   useEffect(() => {
